@@ -9,7 +9,7 @@ WITH health_expenditure_stg1 AS (
     {{ format_numeric_cols('A2021') }} AS health_expenditure_2021
 
 
-    FROM {{ source('staging','health_expenditure') }}
+    FROM {{ source('google-sheets','health_expenditure') }}
 )
 
 SELECT * FROM health_expenditure_stg1

@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-    - name: staging
+    - name: google-sheets
       database: hospital-project-313118
       schema: health_metrics
 

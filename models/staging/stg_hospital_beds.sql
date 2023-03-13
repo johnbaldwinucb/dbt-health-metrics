@@ -14,7 +14,7 @@ WITH hospital_beds_stg1 AS (
     {{ format_numeric_cols('AUnnamed5') }} AS hospital_beds_per_1000_2016,
     {{ format_numeric_cols('AUnnamed6') }} AS hospital_beds_per_1000_2017
 
-    FROM {{ source('staging','hospital_beds') }}
+    FROM {{ source('google-sheets','hospital_beds') }}
     WHERE ACountryorterritory IS NOT NULL
     
 
