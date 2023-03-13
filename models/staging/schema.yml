@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+    - name: staging
+      database: hospital-project-313118
+      schema: health_metrics
+
+      tables:
+        - name: health_expenditure
+        - name: hospital_beds
+        - name: infant_mortality
+
+
+
+models:
+  - name: stg_health_expenditure
+    description: Staging table for health expenditures.
+  - name: stg_hospital_beds
+    description: Staging table for hospital beds data.
+  - name: stg_infant_mortality
+    description: Staging table for infant mortality data.
