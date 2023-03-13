@@ -1,15 +1,3 @@
-Welcome to your new dbt project!
+dbt project for the Data Engineering / Analytics Engineering - Data Modeling of Wikipedia Health Metrics project
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Project consists of three source tables piped into BigQuery using Prefect for workflow orchestrations, three staging views and a final table.  Visualization using the final table is upcoming.  The project is meant to demonstrate familiarity with the modern data stack.
