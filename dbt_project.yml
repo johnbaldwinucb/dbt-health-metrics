@@ -36,3 +36,4 @@ models:
     # Applies to all files under models/example/
     - stg_health_expenditure
     - stg_hospital_beds
+    - stg_infant_mortality
